@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Club de vacances : la folle parenthèse</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <LINK rel="stylesheet" type="text/css" href="style.css"> 
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/monJQuery.js"></script>
+</head>
+        <body>
+
+        <header>
+			<h1>La folle parenthèse</h1>
+        <header>
+<nav>
+    <a id="grand1" href="index.html">Présentation du club</a>
+    <menu>
+        <li><a href="formule.html">Formules</a></li>
+        <li><a href="prestation.html">Prestations proposées</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+    </menu>
+    <a id="grand2" href="equipe.html">Rejoignez notre équipe</a>
+    <menu>
+        <li><a href="candidature.html" >Déposez une candidature spontanée</a></li>
+    </menu>
+</nav>
+
+		<section>
+            <form action="#" method="post">
+                <label for="nom">Nom :</label>
+					<input id="nom" type ="text" name="nom" required="required"/>Votre nom<br /><br />
+                <label for="prenom">Prénom :</label>
+					<input id="prenom" type ="text" name="prenom" required="required"/>Votre prénom<br /><br />
+                <label for="tel">Téléphone :</label>
+					<input id="tel" type ="tel" name="tel" pattern="(01|02|03|04|05|06|07|08|09)[ \.\-]?[0-9]{2}[ \.\-]?[0-9]{2}[ \.\-]?[0-9]{2}[ \.\-]?[0-9]{2}"/>Le téléphone de contact<br /><br />
+                <label for="email">Courriel :</label>
+					<input id="email" type ="email" name="email"/>Le courriel de contact<br /><br />
+				<label for="site">URL :</label>
+					<input id="site" type ="url" name="site"/>Adresse de votre portefeuille de compétences<br /><br />
+				 <label for="dateD">Date de disponibilité :</label>
+					<input id="dateD" type ="text" name="dateD"/>La date de disponibilité<br /><br />
+                <label for="cv">Transmettre votre CV :</label>
+					<input type="file" id="cv" name="cv"/><br />
+                <div><input type="submit" value="Envoyer votre candidature"/></div>
+            </form>
+        </section>
+    </body>
+</html>

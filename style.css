@@ -1,0 +1,61 @@
+/*balise body*/
+body { 
+background:url('images/bodyimage.png'); 
+font-family:'Helvetica Neue'; 
+font-size:24px; }
+
+input:invalid {
+   box-shadow: 0 0 2px 1px red;
+}
+/*balise H1*/
+h1{
+color:6495ED;
+text-align:center;}
+
+:required {
+   border: 2px dotted orange;
+}
+
+.haut{
+margin: 3 2 2 2 ;
+height:6%;
+}
+#imgDescription{
+width:400px; 
+background-color:#FFFFFF; 
+display: none; 
+margin-top:-10px;
+}
+
+img {vertical-align:middle; border:none;}
+#galerie {overflow:auto; list-style:none; margin:30px; padding:0;}
+#galerie li {float:left;}
+#galerie a {display:block; padding:10px; outline:none;}
+#galerie a:hover, #galerie a:focus {background:#fff;}
+#galerie a.active {background:#000;}
+#viewer {width:700px; height:465px; margin-left:30px;}
+
+.gauche{
+background-color:white;
+float:left;
+width:20%;
+font-size:15px;
+height:52%;}
+
+.droite{
+float:left;
+width:80%;}
+
+#imgDescription1,#imgDescription2,#imgDescription3{
+width:450px; 
+background-color:#FFFFFF; 
+display: none; 
+margin-top :-10px ;
+}
+
+.style1{
+    background-color:red;
+}
+.style2{
+    background-color:green;
+}
